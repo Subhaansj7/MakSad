@@ -1,0 +1,105 @@
+{
+    "subjects": [
+        {
+            "id": 1,
+            "name": "Core Java",
+            "questions": [
+                {
+                    "q": "Which keyword is used to prevent method overriding?",
+                    "options": ["static", "abstract", "final", "transient"],
+                    "answer": "final"
+                },
+                {
+                    "q": "What is the primary purpose of the 'finally' block in a try-catch-finally construct?",
+                    "options": [
+                        "To execute code only when an exception occurs.",
+                        "To execute code regardless of whether an exception occurs or not.",
+                        "To define the end of the exception handler.",
+                        "To handle NullPointerExceptions specifically."
+                    ],
+                    "answer": "To execute code regardless of whether an exception occurs or not."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Python and R Programming",
+            "questions": [
+                {
+                    "q": "Which Python library is commonly used for data manipulation and analysis, primarily using DataFrames?",
+                    "options": ["NumPy", "Pandas", "Matplotlib", "SciPy"],
+                    "answer": "Pandas"
+                },
+                {
+                    "q": "In Python, which built-in function is used to create an anonymous (lambda) function?",
+                    "options": ["func()", "def_anon()", "lambda", "anonymous()"],
+                    "answer": "lambda"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Database Technologies",
+            "questions": [
+                {
+                    "q": "Which constraint ensures that all values in a column are unique?",
+                    "options": ["NOT NULL", "PRIMARY KEY", "FOREIGN KEY", "UNIQUE"],
+                    "answer": "UNIQUE"
+                },
+                {
+                    "q": "What is normalization in a relational database?",
+                    "options": ["Removing all data from a table.", "Organizing data to reduce redundancy and inconsistency.", "Creating a view of the data.", "Increasing the speed of SELECT queries."],
+                    "answer": "Organizing data to reduce redundancy and inconsistency."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Data Warehousing & Data Mining",
+            "questions": [
+                {
+                    "q": "Which schema is typically used for defining the structure of a Data Warehouse?",
+                    "options": ["3NF Schema", "Star Schema", "Relational Schema", "Hierarchical Schema"],
+                    "answer": "Star Schema"
+                },
+                {
+                    "q": "In Data Mining, what technique is used to find items that occur together frequently?",
+                    "options": ["Clustering", "Association Rule Mining", "Regression", "Classification"],
+                    "answer": "Association Rule Mining"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Big Data Technologies (Hadoop/Spark)",
+            "questions": [
+                {
+                    "q": "Which component in Hadoop is responsible for storing the data across the cluster?",
+                    "options": ["YARN", "MapReduce", "HDFS", "Hive"],
+                    "answer": "HDFS"
+                },
+                {
+                    "q": "What is the main advantage of Apache Spark over Hadoop MapReduce?",
+                    "options": ["It uses disk storage for all intermediate operations.", "It performs in-memory processing.", "It supports only Python.", "It is a simpler file system."],
+                    "answer": "It performs in-memory processing."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Machine Learning",
+            "questions": [
+                {
+                    "q": "Which of the following is a supervised learning algorithm?",
+                    "options": ["K-Means Clustering", "Principal Component Analysis (PCA)", "Linear Regression", "Dimensionality Reduction"],
+                    "answer": "Linear Regression"
+                },
+                {
+                    "q": "What term describes the phenomenon where a model performs well on training data but poorly on unseen data?",
+                    "options": ["Underfitting", "Bias", "Variance", "Overfitting"],
+                    "answer": "Overfitting"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKSAD - PG-DBDA Static Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>MAKSAD: PG-DBDA MCQ Test App</h1>
+        
+        <div id="subject-selection">
+            <h2>Select a Subject</h2>
+            <select id="subject-select"></select>
+            <button id="start-btn">Start 30-Question Test</button>
+        </div>
+
+        <div id="quiz-area" class="hidden">
+            <h2 id="quiz-subject-title"></h2>
+            <form id="quiz-form">
+                </form>
+            <button id="submit-btn">Submit Test</button>
+        </div>
+
+        <div id="result-area" class="hidden">
+            <h2>Quiz Result</h2>
+            <p>Your Score: <strong id="score-display"></strong></p>
+            <div id="feedback-details">
+                </div>
+            <button id="restart-btn">Try Another Test</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
